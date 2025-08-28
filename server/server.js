@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 8000;
 connectDB();
 
 const allowedOrigins = [
-  'https://complete-authentication-and-authorization.vercel.app'
+  'https://complete-authentication-and-authori.vercel.app/'
 ];
 
 app.use(express.json());
