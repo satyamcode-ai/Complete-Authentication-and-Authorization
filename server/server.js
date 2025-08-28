@@ -10,7 +10,7 @@ const app = express();
 const PORT = process.env.PORT || 8000;
 connectDB();
 
-const allowedOrigins = ['http://localhost:5173'];
+const allowedOrigins = ['https://complete-authentication-and-authori.vercel.app/'];
 
 app.use(express.json());
 app.use(cookieParser());    
