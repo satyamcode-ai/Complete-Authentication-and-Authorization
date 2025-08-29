@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(cookieParser());    
 
 app.use(cors({
-      origin:'https://complete-authentication-and-authori.vercel.app/',
+      origin:'https://complete-authentication-and-authori.vercel.app',
       credentials: true,   
 }));
 
