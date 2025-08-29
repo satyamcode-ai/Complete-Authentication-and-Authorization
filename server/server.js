@@ -10,13 +10,11 @@ const app = express();
 const PORT = process.env.PORT || 8000;
 connectDB();
 
-const allowedOrigins = ['https://complete-authentication-and-authori.vercel.app/'];
-
 app.use(express.json());
 app.use(cookieParser());    
 
 app.use(cors({
-      origin:allowedOrigins,
+      origin:'https://complete-authentication-and-authori.vercel.app/',
       credentials: true,   
 }));
 
